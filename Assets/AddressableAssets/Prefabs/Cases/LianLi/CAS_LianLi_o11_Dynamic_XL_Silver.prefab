@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: CAS_LianLi_o11_Dynamic_XL_Silver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6fbe62df92109b775233fbd60af92b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_prefab: {fileID: 1709254077376921, guid: c31aada6f2cb2ac46b2d30b05abdcf5b, type: 2}
+  m_source:
+  - {fileID: 2100000, guid: 90f912fe8e3a1024992b72874c71046d, type: 2}
+  - {fileID: 2100000, guid: 5b1092189c6c79642b10b86489cb5c50, type: 2}
+  - {fileID: 2100000, guid: 0bfea663020ff1c42b1164f718ae0c48, type: 2}
+  - {fileID: 2100000, guid: 3dc3d4064bb898d44bd1f168cb663bf2, type: 2}
+  m_dest:
+  - {fileID: 2100000, guid: 91d50d8bb67e3d44c9eeb0eb1595f45a, type: 2}
+  - {fileID: 2100000, guid: 2a8524f6a6349d4409fc5d260fbe7690, type: 2}
+  - {fileID: 2100000, guid: 1d62dceb170434446951913db43d696b, type: 2}
+  - {fileID: 2100000, guid: 3e90d97e6a95778439d3643d9ad08a64, type: 2}
+  m_replaceComponent: []
+  m_replaceComponentWith: []
+  m_recolourLEDs: 0
+  m_colour: {r: 0, g: 0, b: 0, a: 0}

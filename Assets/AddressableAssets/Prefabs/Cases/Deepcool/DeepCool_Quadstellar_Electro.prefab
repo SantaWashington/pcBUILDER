@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: DeepCool_Quadstellar_Electro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6fbe62df92109b775233fbd60af92b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_prefab: {fileID: 1709254077376921, guid: 43ab1ce231f328a448d78cfe1d3f57f3, type: 2}
+  m_source:
+  - {fileID: 0}
+  - {fileID: 2100000, guid: b773c58765800a64ab170f7df3f84c19, type: 2}
+  - {fileID: 2100000, guid: daa60ff79002c7c40b7f6e774ada4be2, type: 2}
+  - {fileID: 2100000, guid: 760b33482eee1d544b7f911bafe0dbd3, type: 2}
+  - {fileID: 2100000, guid: 968471e4dc956754d9caa0fb280daab0, type: 2}
+  - {fileID: 2100000, guid: bf5fa77b2f17d164c85747e6f6753b80, type: 2}
+  - {fileID: 2100000, guid: 03dfc7051ea5402419d4c04da4d0e5fe, type: 2}
+  - {fileID: 2100000, guid: 1d2bb347037986f4ca898b9bb2193cb1, type: 2}
+  - {fileID: 2100000, guid: 6f095eddaae352047a7a94efd8fc5382, type: 2}
+  - {fileID: 2100000, guid: a808f57b36539d94181dc4e73f4027db, type: 2}
+  m_dest:
+  - {fileID: 0}
+  - {fileID: 2100000, guid: 11ff19ef2c8129e419f535e6e65cd5d3, type: 2}
+  - {fileID: 2100000, guid: 3c772e8b72b03bd4b9ff3c30255ac418, type: 2}
+  - {fileID: 2100000, guid: 760b33482eee1d544b7f911bafe0dbd3, type: 2}
+  - {fileID: 2100000, guid: 3c772e8b72b03bd4b9ff3c30255ac418, type: 2}
+  - {fileID: 2100000, guid: 3c772e8b72b03bd4b9ff3c30255ac418, type: 2}
+  - {fileID: 2100000, guid: 611643d4a1e93a4448b2e3cd2d5bc7c4, type: 2}
+  - {fileID: 2100000, guid: cb4e0b8eb434d9a488931f091d1f9eb0, type: 2}
+  - {fileID: 2100000, guid: 6cd72bc0e2ded6e49ae7c96580b32cbf, type: 2}
+  - {fileID: 2100000, guid: bcd9f1f7536656145a3bfb06c3997cb9, type: 2}
+  m_replaceComponent: []
+  m_replaceComponentWith: []
+  m_recolourLEDs: 0
+  m_colour: {r: 0, g: 0, b: 0, a: 0}

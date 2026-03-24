@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Deepcool_Earlkase_Black
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6fbe62df92109b775233fbd60af92b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_prefab: {fileID: 1709254077376921, guid: 27e0d7ab54ff2104281afcc1153a8307, type: 2}
+  m_source:
+  - {fileID: 2100000, guid: 386924b1709cc7c43b60cb0be9eeba49, type: 2}
+  - {fileID: 2100000, guid: a80e454e29557d349ba0a7680350c55a, type: 2}
+  - {fileID: 2100000, guid: 5e12990e7d3d68a4faa52d7fe2301822, type: 2}
+  - {fileID: 2100000, guid: ac0ed11ff914adb43a6dc4d83403b8e9, type: 2}
+  m_dest:
+  - {fileID: 2100000, guid: e5fc6e161eb84364c9290a98ffa4c62f, type: 2}
+  - {fileID: 2100000, guid: c057d9e31be25c14eab289b90148617d, type: 2}
+  - {fileID: 2100000, guid: bfba94d638fdbae43b6becdfb7bd6326, type: 2}
+  - {fileID: 2100000, guid: a6e324514d62c124fbb393ce9af2e0ff, type: 2}
+  m_replaceComponent: []
+  m_replaceComponentWith: []
+  m_recolourLEDs: 0
+  m_colour: {r: 0, g: 0, b: 0, a: 0}

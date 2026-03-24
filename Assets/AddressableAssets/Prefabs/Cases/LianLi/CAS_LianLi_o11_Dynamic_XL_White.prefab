@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: CAS_LianLi_o11_Dynamic_XL_White
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6fbe62df92109b775233fbd60af92b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_prefab: {fileID: 1709254077376921, guid: c31aada6f2cb2ac46b2d30b05abdcf5b, type: 2}
+  m_source:
+  - {fileID: 2100000, guid: 90f912fe8e3a1024992b72874c71046d, type: 2}
+  - {fileID: 2100000, guid: 91f1672636cd517428816ba43361f31e, type: 2}
+  - {fileID: 2100000, guid: adcff85c39e4ddd40b20e5c9229a9b37, type: 2}
+  - {fileID: 2100000, guid: 5b1092189c6c79642b10b86489cb5c50, type: 2}
+  - {fileID: 2100000, guid: 0bfea663020ff1c42b1164f718ae0c48, type: 2}
+  - {fileID: 2100000, guid: d9483857e51b97646915a928b0e7fc69, type: 2}
+  m_dest:
+  - {fileID: 2100000, guid: 564a81ba68d6ce1448363b7bee55ca95, type: 2}
+  - {fileID: 2100000, guid: 564a81ba68d6ce1448363b7bee55ca95, type: 2}
+  - {fileID: 2100000, guid: 45db0685c1240894fb04047e8e2387b5, type: 2}
+  - {fileID: 2100000, guid: 8a3c7bb0cc9cf144d8f2e96453da450c, type: 2}
+  - {fileID: 2100000, guid: 4bc0577f0e6ee694697f2904767f3e57, type: 2}
+  - {fileID: 2100000, guid: 564a81ba68d6ce1448363b7bee55ca95, type: 2}
+  m_replaceComponent: []
+  m_replaceComponentWith: []
+  m_recolourLEDs: 0
+  m_colour: {r: 0, g: 0, b: 0, a: 0}
